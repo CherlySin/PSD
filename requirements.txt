@@ -34,6 +34,7 @@ matplotlib==3.7.4
 mdurl==0.1.2
 more-itertools==10.1.0
 numpy==1.24.4
+openpyxl
 openpyxl==3.0.16
 packaging==23.2
 pandas==2.0.3
