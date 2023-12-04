@@ -37,11 +37,11 @@ X6_train, X6_test, y_train, y_test = train_test_split(Fitur7, y, test_size=0.2, 
 
 
 # Load model
-with open('7fitur.pkl', 'rb') as file:
+with open('7Fitur.pkl', 'rb') as file:
     nb_model = pickle.load(file)
 
 # Load scaler
-with open('7skalar.pkl', 'rb') as file:
+with open('7Skalar.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
 # Tampilan aplikasi Streamlit
